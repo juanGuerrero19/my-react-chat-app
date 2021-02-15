@@ -1,0 +1,11 @@
+.panel-header {
+    background-color: $color-header-purple;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    
+    &__title {
+        color: $color-white;
+        font-size: 20px;
+        font-family: $font-family-lato-reg;
+    }
+}

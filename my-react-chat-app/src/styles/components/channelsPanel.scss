@@ -1,0 +1,13 @@
+.channels-panel {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-main-purple;
+    height: 100%;
+    width: auto;
+    max-width: 50vw;
+    min-width: 400px;
+    
+    &__group {
+        margin-bottom: 30px;
+    }
+}

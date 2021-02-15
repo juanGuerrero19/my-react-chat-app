@@ -1,0 +1,44 @@
+.group-element {
+    &__title {
+        display: flex;
+        align-items: center;
+        color: $color-gray;
+        font-size: 18px;
+        font-family: $font-family-lato-reg;
+        text-transform: uppercase;   
+        padding: 0 15px 10px;
+    }
+
+    &__icon {
+        margin: 0 5px;
+
+        &--gray {
+            fill: $color-icon-offline;
+        }
+
+        &--green {
+            fill: $color-icon-online;
+        }
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        color: $color-gray;
+        font-size: 15px;
+        font-family: $font-family-lato-reg;
+        cursor: pointer;
+        list-style: none;
+        padding: 0 15px 5px;
+
+        &--selected {
+            color: $color-white;
+            background-color: $color-selected-green;
+        }
+    }
+}

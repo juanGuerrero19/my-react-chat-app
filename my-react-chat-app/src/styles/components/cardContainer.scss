@@ -1,0 +1,29 @@
+.card-container {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    width: 100%;
+
+    &--no-padding-right {
+        padding-right: 0;
+    }
+
+    &--small-size {
+        width: 40%;
+    }
+
+    &--full-height {
+        height: 100%;
+
+        .card-container__background {
+            height: 100%;
+        }
+    }
+    
+    &__background {
+        background-color: $color-white;
+        box-sizing: border-box;
+        height: 100px;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "fakeData": {
+        "fakeChannels": [
+            {
+                "text": "Product Implementation Associate",
+                "icon": "channel"
+            },
+            {
+                "text": "Investor Tactics Architect",
+                "icon": "channel"
+            },
+            {
+                "text": "Customer Intranet Producer",
+                "icon": "channel"
+            }
+        ],
+        "fakeUsers": [
+            {
+                "text": "Davonte",
+                "icon": "online"
+            },
+            {
+                "text": "Olin",
+                "icon": "offline"
+            },
+            {
+                "text": "Eino",
+                "icon": "online"
+            }
+        ],
+        "fakeFavorites": [
+            {
+                "text": "Product Implementation Associate",
+                "icon": "channel"
+            },
+            {
+                "text": "Investor Tactics Architect",
+                "icon": "channel"
+            }
+        ]
+    }
+}

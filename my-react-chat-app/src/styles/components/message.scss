@@ -1,0 +1,39 @@
+.message {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+
+    &__image-container {
+        display: flex;
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__identity {
+    }
+
+    &__username {
+        color: $color-black;
+        font-size: 15px;
+        font-family: $font-family-lato-bol;
+        margin-right: 10px;
+    }
+
+    &__time {
+        color: $color-gray;
+        font-size: 15px;
+        font-family: $font-family-lato-reg;
+        margin-right: 10px;
+    }
+
+    &__text {
+
+    }
+
+}
